@@ -1,0 +1,163 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    background-color: #3b3a3a;
+    color: whitesmoke;
+    display: -ms-grid;
+    display: grid;
+        grid-template-columns: 30% 60%;
+        column-gap: 10%;
+    padding: 0% 5%;
+  }
+  
+  nav .array-inputs {
+    display: grid;
+        grid-template-columns: 60% 40%;
+    place-content: center;
+    padding: 5% auto;
+  }
+  
+  nav .array-inputs #a_size {
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_speed {
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_generate {
+    background-color: transparent;
+    outline: none;
+    color: white;
+    padding: 5% 0% 0% 20%;
+    font-size: x large;
+    block-size: auto;
+     border: none;
+    font-size: large;
+  }
+  
+  nav .array-inputs #a_generate:hover {
+    color:black;
+    cursor: pointer;
+  }
+  
+  nav .header_right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  nav .header_right .nav-heading {
+    display: inline;
+    font-size: xxx-large;
+    padding: 3% 3%;
+  }
+  
+  nav .header_right .algos {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(5, 20.66667%);
+     place-content :right; 
+    padding: 2% 0%;
+  }
+  
+  nav .header_right .algos button {
+    background-color: cyan;
+    color: black;
+    block-size: auto;
+   border: none;
+    padding: 10% 2%;
+    font-size: large;
+    border-radius: 35px;
+
+   
+  }
+  
+  nav .header_right .algos button:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_locked {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_locked:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_selected {
+    background-color: transparent;
+    color: green;
+  }
+  
+  nav .header_right .algos .butt_selected:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_unselected:hover {
+    background-color: palevioletred;
+    cursor: pointer;
+  }
+  
+  section {
+    display: grid;
+    -ms-grid-columns: 20% 60% 20%;
+       grid-template-columns: 20% 60% 20%;
+  }
+  
+  section .Complexity_Containers {
+    margin-top: 20%;
+  }
+  
+  section .Complexity_Containers .Pair_Definitions {
+    margin-top: 20%;
+  }
+  
+  section .Complexity_Containers .Pair_Definitions p {
+    display: -webkit-box;
+  
+  }
+  
+  section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
+    font-size: medium;
+    text-transform: none;
+  }
+  
+  section #Info_Cont1 {
+    padding: 30% 10%;
+  }
+  
+  section #Info_Cont1 h3 {
+    text-decoration: underline;
+  }
+  
+  section #array_container {
+    display: -webkit-box;
+    width: 100%;
+    height: 75vh;
+  }
+  
+  section #Info_Cont2 {
+    padding: 30% 10%;
+  }
+  
+  section #Info_Cont2 h3 {
+    text-decoration: underline;
+  }
+  
